@@ -1,12 +1,6 @@
-
-function App() {
-  return (
-    <div>
-      <h1>My First React App</h1>
-      <p>Hello World!</p>
-    
-    </div>
+import Header from "./components/Header";
+export default function App() {
+  return(
+   <Header />
   );
 }
-
-export default App;
